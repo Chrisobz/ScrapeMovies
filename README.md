@@ -23,16 +23,16 @@ This script scrapes and filters movies made between 1990 and 1999.
 
 <h2>How It Works</h2>
 
-1. **Fetching the Webpage**: The scripts use the `<code>requests</code>` library to fetch the HTML content from the Stacker page.
-2. **Parsing HTML**: The `<code>BeautifulSoup</code>` library is used to parse the HTML and locate movie titles and years.
+1. **Fetching the Webpage**: The scripts use the requests library to fetch the HTML content from the Stacker page.
+2. **Parsing HTML**: The BeautifulSoup library is used to parse the HTML and locate movie titles and years.
 3. **Filtering Data**: Based on the year, the scripts filter out movies that fall within the specified time periods.
-4. **Saving Results**: The filtered movie data is saved to a CSV file using the `<code>pandas</code>` library.
+4. **Saving Results**: The filtered movie data is saved to a CSV file using the pandas library.
 
 <h2>Requirements</h2>
 
-- `<code>requests</code>`
-- `<code>beautifulsoup4</code>`
-- `<code>pandas</code>`
+- requests
+- beautifulsoup4
+- pandas
 
 You can install the required packages by running:
 
